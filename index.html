@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rumaiza RK - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;scroll-behavior:smooth;}
+body{background:#0a0a0a;color:white;}
+nav{position:sticky;top:0;z-index:100;background:#121212;display:flex;justify-content:space-between;align-items:center;padding:20px 50px;border-bottom:1px solid #222;}
+.logo{font-weight:bold;font-size:22px;} .logo span{color:#f9b233;}
+nav ul{display:flex;list-style:none;gap:30px;}
+nav ul li a{color:#ccc;text-decoration:none;font-size:14px;} nav ul li a:hover{color:#f9b233;}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:80px 50px;gap:40px;}
+.hero h5{color:#f9b233;letter-spacing:2px;font-size:13px;margin-bottom:10px;}
+.hero h1{font-size:52px;line-height:1.1;} .hero h1 span{color:#f9b233;}
+.hero h2{font-size:24px;color:#ddd;font-weight:400;margin:5px 0 15px 0;}
+.hero p{color:#aaa;line-height:1.6;margin-bottom:25px;max-width:500px;}
+.btn-yellow{background:#f9b233;color:black;border:none;padding:13px 28px;border-radius:25px;font-weight:bold;cursor:pointer;}
+.btn-outline{background:transparent;color:#f9b233;border:1px solid #f9b233;padding:13px 28px;border-radius:25px;margin-left:10px;cursor:pointer;}
+.hero-img{width:360px;height:440px;border-radius:20px;overflow:hidden;border:8px solid #f9b233;background:#1a1a1a;flex-shrink:0;}
+.hero-img img{width:100%;height:100%;object-fit:cover;}
+.section{max-width:1000px;margin:0 auto;padding:70px 30px;text-align:center;}
+.section h2{font-size:38px;margin-bottom:10px;}
+.yellow-line{width:60px;height:4px;background:#f9b233;margin:0 auto 25px auto;border-radius:2px;}
+.section p.desc{color:#ccc;line-height:1.7;max-width:700px;margin:0 auto 30px auto;}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;text-align:left;margin-top:30px;}
+.card{background:#151515;border:1px solid #222;padding:22px;border-radius:12px;}
+.card-exp{border-left:5px solid #f9b233;}
+.card h3{color:#f9b233;margin-bottom:6px;font-size:16px;}
+.card h4{color:white;margin-bottom:6px;}
+.card p{color:#ccc;font-size:14px;line-height:1.5;text-align:left;}
+.card small{color:#888;font-size:12px;}
+.skill-row{background:#151515;padding:12px 18px;border-radius:25px;display:flex;align-items:center;gap:15px;margin-bottom:12px;}
+.skill-row span:first-child{width:110px;text-align:left;font-weight:bold;font-size:14px;}
+.skill-bar{flex:1;background:#222;height:10px;border-radius:5px;}
+.skill-fill{background:#f9b233;height:10px;border-radius:5px;}
+.contact-grid{display:flex;justify-content:center;gap:40px;margin-top:30px;flex-wrap:wrap;}
+.contact-item{display:flex;align-items:center;gap:10px;text-align:left;}
+.contact-icon{width:40px;height:40px;background:#f9b233;border-radius:50%;display:flex;align-items:center;justify-content:center;color:black;font-weight:bold;}
+@media(max-width:800px){.hero{flex-direction:column;text-align:center;} .grid-2{grid-template-columns:1fr;} nav{padding:15px 20px;flex-direction:column;gap:10px;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">RUMAIZA <span>RK</span></div>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- 1ST BOX -->
+<div class="hero">
+  <div>
+    <h5>HELLO!</h5>
+    <h1>I'm <span>Rumaiza RK</span></h1>
+    <h2>Junior Developer</h2>
+    <p>From Calicut, Kerala. BSC Computer Science graduate with experience in Sales, Computer Teaching and Banking. Now focusing on Web Development.</p>
+    <a href="#contact"><button class="btn-yellow">HIRE ME</button></a>
+    <a href="#experience"><button class="btn-outline">MY WORKS</button></a>
+  </div>
+  <div class="hero-img"><img src="rumaisa.jpg" alt="Rumaiza RK"></div>
+</div>
+
+<!-- ABOUT ME -->
+<div id="about" class="section" style="background:#111;">
+  <h2>About Me</h2>
+  <div class="yellow-line"></div>
+  <p class="desc">Hello! I'm Rumaiza RK from Calicut, Kerala. I am a BSC Computer Science graduate (2013-2016) from Calicut University. I have diverse experience in Sales, Computer Teaching and as a BRI in Bank. Currently completing CTTC (Computer Teacher Training Course) in 2026.</p>
+  <div class="grid-2">
+    <div class="card"><h4>📍 Location</h4><p>Calicut, Kerala, India</p></div>
+    <div class="card"><h4>🎓 Qualification</h4><p>BSC Computer Science - Calicut University</p></div>
+    <div class="card"><h4>💼 Experience</h4><p>Sales, Teaching, Banking - 3 Fields</p></div>
+    <div class="card"><h4>📚 Current</h4><p>CTTC - Computer Teacher Training - 2026</p></div>
+  </div>
+</div>
+
+<!-- EXPERIENCE - NEW BOX YOU ASKED -->
+<div id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="yellow-line"></div>
+  <p class="desc">My professional journey across different sectors.</p>
+  <div class="grid-2">
+    <div class="card card-exp">
+      <h3>🛒 Sales Experience</h3>
+      <h4>Sales Executive</h4>
+      <p>Handled customer handling, product selling, and sales target achievement. Gained strong communication and customer service skills.</p>
+    </div>
+    <div class="card card-exp">
+      <h3>👩‍🏫 Computer Teaching</h3>
+      <h4>Computer Teacher</h4>
+      <p>Taught basic computer, MS Office, internet and computer fundamentals to students. Experience in making easy learning methods.</p>
+    </div>
+    <div class="card card-exp">
+      <h3>🏦 BRI in Bank</h3>
+      <h4>Banking Role - BRI</h4>
+      <p>Worked as BRI (Banking Correspondent) in Bank. Managed customer accounts, banking services, and financial transactions support.</p>
+    </div>
+    <div class="card card-exp">
+      <h3>💻 Junior Developer</h3>
+      <h4>Web Developer (Learning)</h4>
+      <p>Currently learning and building projects in HTML, CSS, JavaScript, React. Creating portfolio and responsive websites.</p>
+    </div>
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<div id="education" class="section" style="background:#111;">
+  <h2>Education</h2>
+  <div class="yellow-line"></div>
+  <div class="grid-2">
+    <div class="card"><h3>BSC Computer Science</h3><h4>Calicut University</h4><p>2013 - 2016<br>Completed BSc in Computer Science with focus on programming fundamentals.</p></div>
+    <div class="card"><h3>CTTC Course</h3><h4>Computer Teacher Training Course</h4><p>2026<br>Professional training for computer teaching methodology and advanced computer skills.</p></div>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="yellow-line"></div>
+  <div style="max-width:700px;margin:30px auto;">
+    <div class="skill-row"><span>HTML</span><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div><span style="color:#f9b233;font-weight:bold;">90%</span></div>
+    <div class="skill-row"><span>CSS</span><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div><span style="color:#f9b233;font-weight:bold;">85%</span></div>
+    <div class="skill-row"><span>JavaScript</span><div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div><span style="color:#f9b233;font-weight:bold;">70%</span></div>
+    <div class="skill-row"><span>Teaching</span><div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div><span style="color:#f9b233;font-weight:bold;">95%</span></div>
+    <div class="skill-row"><span>MS Office</span><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div><span style="color:#f9b233;font-weight:bold;">90%</span></div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="section" style="background:#111;">
+  <h2>Contact Me</h2>
+  <div class="yellow-line"></div>
+  <p class="desc">Let's connect! Contact me for teaching or development work.</p>
+  <div class="contact-grid">
+    <div class="contact-item"><div class="contact-icon">✉</div><div><h4 style="color:#f9b233;font-size:12px;">Email</h4><p style="color:white;">rumaisark08@gmail.com</p></div></div>
+    <div class="contact-item"><div class="contact-icon">☎</div><div><h4 style="color:#f9b233;font-size:12px;">Phone</h4><p style="color:white;">9847466746</p></div></div>
+    <div class="contact-item"><div class="contact-icon">📍</div><div><h4 style="color:#f9b233;font-size:12px;">Location</h4><p style="color:white;">Calicut, Kerala</p></div></div>
+  </div>
+  <p style="margin-top:50px;color:#666;font-size:12px;">© 2026 Rumaiza RK | BSC Computer Science | Calicut, Kerala</p>
+</div>
+
+</body>
+</html>
